@@ -1,4 +1,4 @@
-package it.nputAndOutput_04;
+package it.InputAndOutput_04;
 
 import java.util.Scanner;
 
