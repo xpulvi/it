@@ -1,18 +1,25 @@
 package it.Javadoc_01;
 
+/**
+ * @author nico
+ *
+ * - print in console the result of the`addHelloWord`method invocation
+ * - print in console the result of the`getFullName`method invocation
+ */
 public class Tester {
 
     public static void main(String[] args) {
 
-        WordGames WordGames = new WordGames() {
+        /**
+         * create the word Games object
+         */
+        WordGames wordGames = new WordGames() {
         };
 
-        //non ho capit come fare
-        System.out.printf("result addHelloWord %s" , WordGames.addHelloWord("ciao"));
-       // System.out.println("result getFullName " + WordGames.getFullName(String , String 'pulvirenit'));
 
-        //}
-
+        System.out.println("             ");
+        System.out.println(wordGames.addHelloWord("  nico"));
+        System.out.println(wordGames.getFullName("nicolo  ", "pulvirenti  "));
 
     }
 
