@@ -1,7 +1,7 @@
 package it.Javadoc_01;
 
 /**
- * @author nico
+ * @author Luca
  *
  * - print in console the result of the`addHelloWord`method invocation
  * - print in console the result of the`getFullName`method invocation
@@ -18,8 +18,8 @@ public class Tester {
 
 
         System.out.println("             ");
-        System.out.println(wordGames.addHelloWord("  nico"));
-        System.out.println(wordGames.getFullName("nicolo  ", "pulvirenti  "));
+        System.out.println(wordGames.addHelloWord("Luc  "));
+        System.out.println(wordGames.getFullName("Luca  ", "Rossi  "));
 
     }
 
