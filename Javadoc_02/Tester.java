@@ -1,15 +1,7 @@
 package it.Javadoc_02;
 
-/**
- * @author nicolo
- */
 public class Tester {
 
-    /**
-     *
-     this is used to launch the class
-     * @param args
-     */
     public static void main(String[] args) {
 
         ArithmeticOperators arithmeticOperators = new ArithmeticOperators();
