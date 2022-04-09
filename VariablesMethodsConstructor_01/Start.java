@@ -11,7 +11,10 @@ public class Start {
 
         //TODO finire: you create two House objects and assign them to the variables house1 and house2
         //houseObj1;
+       // public void houseObj1(String house1, String house2){
+
+        }
 
     }
 
-}
+

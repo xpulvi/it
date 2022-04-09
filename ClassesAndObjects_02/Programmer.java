@@ -8,7 +8,7 @@ public class Programmer {
 
 
     public void printProgrammerDetails(){
-        System.out.println(" ");
+        System.out.println("name: " + name + "liguagio: " +  programmingLanguage + "yearsOfExperience: " + yearsOfExperience);
     }
 
 }

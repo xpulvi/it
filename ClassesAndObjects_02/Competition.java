@@ -9,6 +9,7 @@ public class Competition {
         CompetitionRules competitionRules = CompetitionRules.getInstance();
        competitionRules.printRules();
 
+
         Team teamA = new Team();
         Team teamB = new Team();
 
