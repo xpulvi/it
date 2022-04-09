@@ -10,13 +10,9 @@ public class Team {
 
     public void printTeamDetails(){
 
-       /* System.out.printf("team name:  %s  name develop: %s  ", teamName , p1 , "Language programming:  %s "
-                ,p1.programmingLanguage, "yars of develop   %s  %d " ); */
-
-        System.out.println("team name " + teamName );
+        System.out.println("team name: " + teamName );
 
         System.out.println("   -----   ------  ");
-       // System.out.println("team name:    " + teamName + " - " + p2 + " " + p2.programmingLanguage);
         p1.printProgrammerDetails();
         p2.printProgrammerDetails();
     }
