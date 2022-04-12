@@ -8,9 +8,9 @@ public class PrintYourName {
 
         System.out.print("prints your name:  " );
         Scanner scanner = new Scanner(System.in);
-        //TODO in che senso làschaner va chiuso?
         String name = scanner.nextLine();
-
+        //chiude li mettodo scaner. non vai a ocupare gli strem del pc.
+        scanner.close();
         System.out.printf("Hello  %s", name);
 
     }
