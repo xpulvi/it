@@ -15,7 +15,13 @@ public class Tester {
 
         //creazione del clone s8 e agiunta dei detagli
         //FIXME clone not faund
-        Smartphone s8Clonade = s8.clone();
+        Smartphone s8Clonade = null;
+        try {
+            s8Clonade = s8.clone();
+        } catch (CloneNotSupportedException e) {
+            System.out.println("Error s8Clonade ");
+            e.printStackTrace();
+        }
         s8Clonade.brandName = "asus";
         s8Clonade.modelName = "s8+ Clone";
         s8Clonade.batterymAh = 400;
@@ -25,6 +31,7 @@ public class Tester {
         //details Smartpon s8
         System.out.println(s8.smartphoneDetails());
 
+        System.out.println("                 ");
         //details Smartpon cloned s8
         System.out.println(s8Clonade.smartphoneDetails());
 
