@@ -10,6 +10,6 @@ public class Student {
 
     }
 
-    public static getAverageMark();
+    //public static getAverageMark();
 
 }
