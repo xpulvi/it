@@ -58,4 +58,8 @@ public class Smartphone implements Cloneable {
         producerPrice = prodP;
         retailPrice = retailP;
     }
+    public String smartphoneDetails(){
+        return "smartphone Details: " + "brandName: "+ brandName + " model name: " + modelName +
+               " battery " + batterymAh + " producer Price " + producerPrice + " retail Price: " + retailPrice;
+    }
 }

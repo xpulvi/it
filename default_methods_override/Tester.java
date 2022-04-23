@@ -13,8 +13,21 @@ public class Tester {
         Smartphone s8 = new Smartphone("samsun", "s8+", 500, Producer1,Retail1);
         Smartphone s20 = new Smartphone("samsun", "s20", 500, Producer2,Retail2);
 
-    //TODO
-    System.out.println("details: ");
+        //creazione del clone s8 e agiunta dei detagli
+        //FIXME clone not faund
+        Smartphone s8Clonade = s8.clone();
+        s8Clonade.brandName = "asus";
+        s8Clonade.modelName = "s8+ Clone";
+        s8Clonade.batterymAh = 400;
+        s8Clonade.producerPrice = Producer1;
+        s8Clonade.retailPrice = Retail2;
+
+        //details Smartpon s8
+        System.out.println(s8.smartphoneDetails());
+
+        //details Smartpon cloned s8
+        System.out.println(s8Clonade.smartphoneDetails());
+
     }
 
 }
