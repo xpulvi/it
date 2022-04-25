@@ -13,7 +13,7 @@ public class GenericsClass <T>{
     public void setT(T valueToSet) {
         this.t = valueToSet;
     }
-
+/*
     @Override
     public static boolean equals(Object o) {
         if (this == o) return true;
@@ -21,7 +21,7 @@ public class GenericsClass <T>{
         GenericsClass<?> that = (GenericsClass<?>) o;
         return Objects.equals(t, that.t);
     }
-
+*/
     @Override
     public int hashCode() {
         return Objects.hash(t);

@@ -17,8 +17,26 @@ public class Shape {
     //square
     public Shape(int edges, double edgeLength){
         System.out.println("object creation ");
-        numberOfEdges = shapeName;
+        numberOfEdges = 2;
+        shapeName = "square";
     }
 
+    //rectangle
+    public Shape(double e1, double e2){
+        System.out.println("object creation ");
+        numberOfEdges = 3;
+        shapeName = "rectangle";
+    }
+
+    //triangle
+    public Shape (double e1, double e2, double e3){
+        System.out.println("object creation ");
+        numberOfEdges = 4;
+        shapeName = "triangle";
+    }
+
+    private Object getShapeDetails(){
+       return shapeName + numberOfEdges;
+    }
 
 }
