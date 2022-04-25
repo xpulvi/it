@@ -35,6 +35,8 @@ public class Tester {
         //details Smartpon cloned s8
         System.out.println(s8Clonade.smartphoneDetails());
 
+        s8Clonade.equals(s8);
+
     }
 
 }
