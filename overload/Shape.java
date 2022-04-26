@@ -30,13 +30,14 @@ public class Shape {
 
     //triangle
     public Shape (double e1, double e2, double e3){
-        System.out.println("object creation ");
+        System.out.println("object creation: triangle ");
         numberOfEdges = 4;
         shapeName = "triangle";
     }
 
-    private Object getShapeDetails(){
-       return shapeName + numberOfEdges;
+    public String getShapeDetails(){
+        System.out.printf("shapeName: %s and number Of Edges: %d " ,shapeName ,numberOfEdges);
+       return this.shapeName + this.numberOfEdges;
     }
 
 }

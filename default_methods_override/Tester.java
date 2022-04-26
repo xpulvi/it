@@ -14,7 +14,7 @@ public class Tester {
         Smartphone s20 = new Smartphone("samsun", "s20", 500, Producer2,Retail2);
 
         //creazione del clone s8 e agiunta dei detagli
-        //FIXME clone not faund
+        //FIXME how clone faund?
         Smartphone s8Clonade = null;
         try {
             s8Clonade = s8.clone();
