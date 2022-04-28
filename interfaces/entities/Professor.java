@@ -7,7 +7,7 @@ public class Professor extends CollegePerson implements ITeachingPerson {
 
     @Override
     public void teachToOtherPeople() {
-
+        System.out.println("Professor: " + name + surname + "teach To Other People");
     }
     String teachingSubject;
 

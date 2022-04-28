@@ -6,7 +6,7 @@ public class Assistant extends CollegePerson implements ITeachingPerson {
 
     @Override
     public void teachToOtherPeople() {
-        System.out.println("Assistant sta usando: teachToOtherPeople");
+        System.out.println("Assistant: " + name + surname + "teach To Other People");
     }
 
     boolean isGoingToBeAPhD;

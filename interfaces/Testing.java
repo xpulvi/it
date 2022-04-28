@@ -16,14 +16,6 @@ public class Testing implements ITeachingPerson,ILearningPerson {
         Assistant kevin = new Assistant("kevin ", " pass ",002,true);
 
 
-        /* pirma facevo cosi:
-        System.out.println("      ");
-        marco.goToCollege();
-        System.out.println("      ");
-        luca.goToCollege();
-        System.out.println("      ");
-        kevin.goToCollege(); */
-
         //invoke the goToCollege() method for each of the newly created objects
         marco.goToCollege();
         luca.goToCollege();
@@ -33,7 +25,6 @@ public class Testing implements ITeachingPerson,ILearningPerson {
         marco.studyAtHome();
         luca.teachToOtherPeople();
         kevin.teachToOtherPeople();
-
 
     }
 
