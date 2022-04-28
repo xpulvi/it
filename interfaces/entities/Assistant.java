@@ -1,6 +1,8 @@
-package it.interfaces;
+package it.interfaces.entities;
 
-public class Assistant extends CollegePerson implements ITeachingPerson{
+import it.interfaces.ITeachingPerson;
+
+public class Assistant extends CollegePerson implements ITeachingPerson {
 
     @Override
     public void teachToOtherPeople() {

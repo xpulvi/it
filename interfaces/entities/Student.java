@@ -1,6 +1,8 @@
-package it.interfaces;
+package it.interfaces.entities;
 
-public class Student extends CollegePerson implements ILearningPerson{
+import it.interfaces.ILearningPerson;
+
+public class Student extends CollegePerson implements ILearningPerson {
 
     @Override
     public void studyAtHome() {
