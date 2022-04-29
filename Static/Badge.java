@@ -12,8 +12,9 @@ public class Badge {
     the employee between two random String codes (e.g.XYZNameSurnameZYX)
     non o capito come farlo
     * */
-    private static void  generateBadgeIdCode(){
-        System.out.println(this.employee.namme + this.employee.surname);
+    private String  generateBadgeIdCode(){
+        System.out.println("blSVH34Bz3" + this.employee.namme + this.employee.surname + "sbdj4hciuh8");
+        return employee.namme + employee.surname ;
     }
 
     public void showBadgeDetails(){
@@ -25,11 +26,11 @@ public class Badge {
     public Badge(Employee employeeThatNeedsBadge){
         /*call the static method for keeping track of the number of employees
         * non ho capito come farlo*/
-        static ;
+        totalNumberOfEmployees = 1;
         employeeThatNeedsBadge = employee;
         /* assign a generated id code to the object's badgeIdCode
         *non ho capito come fare questa cosa */
-        Badge.generateBadgeIdCode() ;
+        generateBadgeIdCode() ;
     }
 
 }
