@@ -13,24 +13,31 @@ public class Badge {
     non o capito come farlo
     * */
     private String  generateBadgeIdCode(){
-        System.out.println("blSVH34Bz3" + this.employee.namme + this.employee.surname + "sbdj4hciuh8");
-        return employee.namme + employee.surname ;
+        //System.out.println("blSVH34Bz3" + this.employee.namme + this.employee.surname + "sbdj4hciuh8");
+        return "blSVH34Bz3" + this.employee.namme + this.employee.surname + "sbdj4hciuh8" ;
     }
 
     public void showBadgeDetails(){
-        System.out.println("total nuber of employee: " );
+        System.out.println("total nuber of employee: " + totalNumberOfEmployees);
         System.out.println("details of the employee: " + employee.getEmployeeDetails() );
         System.out.println("badge IdCode: " + this.badgeIdCode);
     }
 
+    //constractor
     public Badge(Employee employeeThatNeedsBadge){
         /*call the static method for keeping track of the number of employees
-        * non ho capito come farlo*/
-        totalNumberOfEmployees = 1;
-        employeeThatNeedsBadge = employee;
+        */
+        keepTrackOfEmployeesNumber();
+
+        employee = employeeThatNeedsBadge;
         /* assign a generated id code to the object's badgeIdCode
         *non ho capito come fare questa cosa */
-        generateBadgeIdCode() ;
+        this.badgeIdCode = generateBadgeIdCode();
+
+    }
+
+    private static void keepTrackOfEmployeesNumber() {
+        totalNumberOfEmployees++;
     }
 
 }

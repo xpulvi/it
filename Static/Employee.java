@@ -7,7 +7,7 @@ public class Employee {
     String address;
 
     //constractor metod
-    protected Employee(String newEmployeeName, String newEmployeeSurname,
+    public Employee(String newEmployeeName, String newEmployeeSurname,
                        String newEmployeeAddress){
         this.namme = newEmployeeName;
         this.surname = newEmployeeSurname;

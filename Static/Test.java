@@ -13,12 +13,15 @@ public class Test {
                 "Dale@live.it");
 
         /* create their new 2 Badge
-        * non ho capito come farlo*/
-
+        * */
+        Badge povero = new Badge(luca);
+        Badge rico = new Badge(marco);
         //show to the user the 2 employees' badge details
 
-        luca.getEmployeeDetails();
-        marco.getEmployeeDetails();
+        //show to the user the 2 employees' badge details
+        povero.showBadgeDetails();
+        System.out.println("        ");
+        rico.showBadgeDetails();
 
     }
 }
