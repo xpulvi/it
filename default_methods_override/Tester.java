@@ -14,7 +14,6 @@ public class Tester {
         Smartphone s20 = new Smartphone("samsun", "s20", 500, Producer2,Retail2);
 
         //creazione del clone s8 e agiunta dei detagli
-        //FIXME how clone faund?
         Smartphone s8Clonade = null;
         try {
             s8Clonade = s8.clone();
@@ -24,7 +23,7 @@ public class Tester {
         }
         s8Clonade.brandName = "asus";
         s8Clonade.modelName = "s8+ Clone";
-        s8Clonade.batterymAh = 400;
+        s8Clonade.batterymAh = 500;
         s8Clonade.producerPrice = Producer1;
         s8Clonade.retailPrice = Retail2;
 
