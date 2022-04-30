@@ -32,9 +32,14 @@ public class GenericsClass <T>{
     * */
 
     public static boolean isEqual(GenericsClass gc1, GenericsClass gc2){
+        boolean result = false;
+        if(gc1.getT().equals(gc2.getT())){
+            result = true;
+        } else if (!gc1.getT().equals(gc2.getT())){
+            result = false;
+        }
 
-        return  gc1.getT().equals(gc2.getT());
-
+        return result;
     }
 
 }
