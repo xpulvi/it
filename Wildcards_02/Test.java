@@ -33,6 +33,7 @@ public class Test {
         - first element is equal to second element?
         - third element is equal to fourth element?
         * */
+        //TODO misa che ce un erore di battitura nella consegnia
         GenericsClass.isEqual(firstElement.equals(secondElement));
         GenericsClass.isEqual(thirdElement.equals(fourthElement));
 
