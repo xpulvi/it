@@ -22,8 +22,16 @@ public class Test {
         `"This is a string"`
         * */
 
-        tnt.setT("ho setatto T");
-        
+        tnt.setT("ho setatto T"){
+            firstElement = 12;
+            secondElement = 13;
+            thirdElement = "This is a string";
+            fourthElement = "This is a string";
+
+        }
+
+        GenericsClass.isEqual(firstElement, secondElement);
+
 
     }
 }
