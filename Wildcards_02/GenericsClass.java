@@ -33,7 +33,8 @@ public class GenericsClass <T>{
 
     public static boolean isEqual(GenericsClass gc1, GenericsClass gc2){
 
-        return gc1.getT().equals(gc2.getT());
+        return  gc1.getT().equals(gc2.getT());
+
     }
 
 }
