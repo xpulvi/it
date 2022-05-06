@@ -9,7 +9,7 @@ public class Testing {
         * */
         a += 5;
         int c = 4;
-        int i = a - c;
+        a - c
         int b = 0;
         // assign the value of `a`to `int b` and increment`b` 
         // by one without using `a` or `int b = b + 1`
