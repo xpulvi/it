@@ -34,8 +34,8 @@ public class Test {
         - third element is equal to fourth element?
         * */
         //TODO misa che ce un erore di battitura nella consegnia
-        GenericsClass.isEqual(firstElement.equals(secondElement));
-        GenericsClass.isEqual(thirdElement.equals(fourthElement));
+      //  GenericsClass.isEqual(firstElement, secondElement);
+       // GenericsClass.isEqual(thirdElement, fourthElement);
 
 
     }

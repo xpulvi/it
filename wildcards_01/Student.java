@@ -3,7 +3,7 @@ package it.wildcards_01;
 import java.util.List;
 
 public class Student {
-
+/*
     String studentName;
     String studentSurname;
     double marksAverage;
@@ -23,6 +23,7 @@ public class Student {
     - `listOfMarks.get(1).doubleValue()` to get the second value from the list
     - the arithmetic summation operator and the arithmetic division operator
         * */
+    /*
         listOfMarks.get(0).doubleValue();
 
         listOfMarks.get(1).doubleValue();

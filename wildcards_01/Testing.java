@@ -5,6 +5,7 @@ import java.util.List;
 public class Testing {
     public static void main(String[] args) {
 
+        /*
         List individualMarksListLisa;
 
         //add two random double values to the list using the .add() built-in method of the List
@@ -17,6 +18,6 @@ public class Testing {
 
         /*calculate (using the static method
         Student.getAverageMark()) the marks average double values for lisaAvg and jeremyAvg */
-        Student.
+
     }
 }
