@@ -6,7 +6,9 @@ public class Test {
         String mySurname  = "Pulvirentni";
 
         //loperatore ternario a sempre una asegniazione
-        //if implicito
+        /*if implicito
+        ? equivale a if
+        : equivale a else*/
         String nani = mySurname.contains("ni") ?
                 "true contain the sequence of letters" : "doesn't contain the sequence of letters 'ni'" ;
 
