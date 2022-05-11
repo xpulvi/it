@@ -7,7 +7,7 @@ public class Test {
 
         //loperatore ternario a sempre una asegniazione
         /*if implicito
-        ? equivale a if
+        ? equivale a "if"
         : equivale a else*/
         String nani = mySurname.contains("ni") ?
                 "true contain the sequence of letters" : "doesn't contain the sequence of letters 'ni'" ;
