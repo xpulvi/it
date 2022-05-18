@@ -1,0 +1,18 @@
+
+
+Creare una classe astratta Giocattoli con
+
+- Le variabili di istanza String colorePrincipale, String tipo, Long id;
+- I metodi astratti playWith() e sound() che rispettivamente stampano una stringa "I'm playing with " + dettagli del gioco e il suono del gioco.
+- Una variabile statica che contiene il numero di Giocattoli creati
+- Un metodo per incrementare il numero di oggetti creati.
+
+Creare una sottoclasse Macchina con:
+
+- Gli attributi double dimensione e double velocitàMassima.
+- Implementa i metodi astratti
+
+Creare una classe di test che:
+
+- Crea una Mappa di Giocattoli e inserisce 2 Macchine.
+- Chiama i due metodi creati in precedenza
