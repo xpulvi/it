@@ -21,9 +21,14 @@ public class Test {
 
 
         //System.out.println("giocatoli creati: " + giocattoliCreati.size());
-
+        /*FIXME non ho capito se il risultato che vogliamo hotenere e come quelo comentato
+        qa soto ho come quello non comentatto */
+        //Giocattoli.numGiocattoliCreati + giocattoliCreati.size();
         Giocattoli.numGiocattoliCreati = giocattoliCreati.size();
         System.out.println("giocatoli creati: " + Giocattoli.numGiocattoliCreati);
+        System.out.println("giocatoli creati: " + giocattoliCreati.size());
+
+
 
         System.out.println("                      ");
         System.out.println(giocattoliCreati);

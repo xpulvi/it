@@ -37,6 +37,6 @@ public class Macchina extends Giocattoli {
         this.colorePrincipal = colorePrincipal;
         this.tipo = tipo;
         this.id = id;
-
+        numGiocattoliCreati++;
     }
 }

@@ -16,10 +16,6 @@ public abstract class Giocattoli {
     //contiene il numero di Giocattoli creati
    protected static int numGiocattoliCreati;
 
-   /*Un metodo per incrementare il numero di oggetti creati.
-   -non ho capito come farlo
-    */
-
 
 
 }
