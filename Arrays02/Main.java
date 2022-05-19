@@ -23,7 +23,7 @@ public class Main {
 
         System.out.println("Is Alice's array having the same length of Tim's array? " +
                 aliceToDos.equals(timToDos.length));
-        Arrays.compare()
+        //Arrays.compare();
 
 
 
