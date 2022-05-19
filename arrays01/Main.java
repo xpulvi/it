@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("number of items: " + carBrands.length);
         System.out.println("3rd item of array: " + carBrands[2]);
-        
+
         int[] primeNumbers = new int[6];
         primeNumbers[0] = 1;
         primeNumbers[1] = 2;

@@ -1,4 +1,4 @@
-package it.IfStatement2;
+package it.If_Statement_2;
 
 public class Test {
     public static void main(String[] args) {

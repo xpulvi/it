@@ -1,4 +1,4 @@
-package it.IfStatement1;
+package it.If_Statement_1;
 
 public class Start {
 
