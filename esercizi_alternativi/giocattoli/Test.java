@@ -12,16 +12,16 @@ public class Test {
         Macchina ferari = new Macchina(45.33,200.4,"rosso","machina",000022L);
 
         //lista fiocatoli creati
-        Map<Double, Double> giocattoliCreati = new HashMap<Double, Double>();
+        Map<Long, Giocattoli > giocattoliCreati = new HashMap<>();
 
 
-        // lamborgini
-        giocattoliCreati.put(12.21,38.6);
-        giocattoliCreati.put(45.33,200.4);
+        // lamborgini e ferrari
+        giocattoliCreati.put(lamborgini.id,lamborgini);
+        giocattoliCreati.put(ferari.id, ferari);
 
 
         //System.out.println("giocatoli creati: " + giocattoliCreati.size());
-        /*FIXME non ho capito se il risultato che vogliamo hotenere e come quelo comentato
+        /*
         qa soto ho come quello non comentatto */
         //Giocattoli.numGiocattoliCreati + giocattoliCreati.size();
         Giocattoli.numGiocattoliCreati = giocattoliCreati.size();
@@ -34,11 +34,15 @@ public class Test {
         System.out.println(giocattoliCreati);
 
         //ho telefonato ai metodi creati in giocattoli
-        System.out.println(lamborgini.playWith());
-        System.out.println(lamborgini.sound());
-        System.out.println("            ");
-        System.out.println(ferari.playWith());
-        ferari.sound();
+
+        //.values() ti torna indietro una lista sula quale si puo iterare (non si porta le chiavi)
+        for (Giocattoli g: giocattoliCreati.values()) {
+            System.out.println(g.playWith());
+            System.out.println(g.sound());
+        }
+        // per prendere la lista dei valori e le chiavi
+        //for(Entry<Long, Giocattoli> entry : giocattoli.entrySet()) { }
+
     }
 
 }
