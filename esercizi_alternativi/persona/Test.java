@@ -31,7 +31,6 @@ public class Test {
         //forech stampa il nome completo di tutte le persone
         for (Persona u: personaList) {
             System.out.println("    ");
-
             System.out.println("mi chiamo: " + u.getFullName());
             
             u.doOperate(u);
