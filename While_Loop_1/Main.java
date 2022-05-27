@@ -2,7 +2,7 @@ package it.While_Loop_1;
 
 public class Main {
 
-
+// fibonaci
     public static void main(String[] args) {
         int i = 0;
         int n1 = 0;
