@@ -1,4 +1,4 @@
-package it.While_Loop_1;
+package it.While_Loop_fibonaci;
 
 public class Main {
 

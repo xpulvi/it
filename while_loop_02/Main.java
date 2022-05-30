@@ -1,6 +1,4 @@
-package it.while_loop02;
-
-import java.util.Scanner;
+package it.while_loop_02;
 
 public class Main {
 
