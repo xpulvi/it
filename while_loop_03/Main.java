@@ -1,4 +1,4 @@
-package it.While_Loop_fibonaci;
+package it.while_loop_03;
 
 public class Main {
 
@@ -8,7 +8,7 @@ public class Main {
         int n1 = 0;
         int n2= 0;
 
-        while (i <= 14){
+        while (i <= 9){
         i++;
         if (n1 == 0 && n2 == 0){
             System.out.println(1);
