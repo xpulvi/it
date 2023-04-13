@@ -20,13 +20,13 @@ public class Laptop extends DispositiviDigitali {
 
     @Override
     public String toString() {
-        return "Laptop{" +
-                "prezzo=" + prezzo +
-                ", barcode='" + barcode + '\'' +
-                ", iva=" + iva +
-                ", ram=" + ram +
-                ", haedDrive=" + haedDrive +
-                ", CPU='" + CPU + '\'' +
+        return "Laptop {" +
+                " prezzo = " + prezzo +
+                ", barcode = '" + barcode + '\'' +
+                ", iva= " + iva +
+                ", ram = " + ram +
+                ", haedDrive = " + haedDrive +
+                ", CPU = '" + CPU + '\'' +
                 '}';
     }
 }

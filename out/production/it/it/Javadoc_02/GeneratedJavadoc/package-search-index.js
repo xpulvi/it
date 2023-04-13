@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"it.ClassesAndObjects_01"},{"l":"it.ClassesAndObjects_02"},{"l":"it.InputAndOutput_01"},{"l":"it.InputAndOutput_02"},{"l":"it.InputAndOutput_03"},{"l":"it.InputAndOutput_04"},{"l":"it.InputAndOutput_05"},{"l":"it.Javadoc_01"},{"l":"it.Javadoc_02"}]
