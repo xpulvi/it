@@ -8,6 +8,7 @@ public class Strart {
     public static void main(String[] args) {
         System.out.println("start");
 
+
         List<Car> mylist = new ArrayList();
         mylist.add(new Car());
         Car car = mylist.get(0);
