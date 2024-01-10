@@ -20,7 +20,7 @@ public class Write implements IWriterAndReeader{
             e.printStackTrace();
         }
     }
-    
+
     @Override
     public void read(String filePath) {
 
