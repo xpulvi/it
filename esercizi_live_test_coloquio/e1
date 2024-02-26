@@ -1,0 +1,9 @@
+
+15) (Facoltativa) Scrivi un programma che dati i numeri da 1 a 100,
+per i numeri multipli di 3 stampa "Fizz",
+ per i multipli di 5 stampa "Buzz",
+ per i numeri che sono multipli sia di 3 che di 5 stampa "FizzBuzz",
+ per i numeri che non sono divisibili né per 3 né per 5 stampa il numero stesso.
+
+N.B. È sufficiente scrivere la parte di codice che implementa la logica,
+non serve dichiarare classi, attributi, costruttori, eccetera.
